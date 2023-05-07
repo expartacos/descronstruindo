@@ -52,3 +52,8 @@ let nomes = ['rafael', 'paulo'];
 let outros = adicionar(nomes,  'Antonio', 'Maria');
 
 console.log(outros);
+
+//includes 
+
+console.log(outros.includes('rafael'));
+console.log('x'.repeat(2));
