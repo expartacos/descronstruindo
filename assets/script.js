@@ -57,3 +57,6 @@ console.log(outros);
 
 console.log(outros.includes('rafael'));
 console.log('x'.repeat(2));
+
+//Objeto: Key, Values e Entries
+console.log(Object.entries(outros));
