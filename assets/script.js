@@ -35,3 +35,20 @@ function novaInfo(inf){
 }
 
 console.log(novaInfo({nome:'Rafae', sobrenome:'Pereira'}));
+
+
+//Operador rest 
+
+function adicionar(nomes, ...novosNomes){
+    let novoConjunto = [
+        ...nomes,
+        ...novosNomes
+    ];
+    return novoConjunto;
+}
+
+let nomes = ['rafael', 'paulo'];
+
+let outros = adicionar(nomes,  'Antonio', 'Maria');
+
+console.log(outros);
