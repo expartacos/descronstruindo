@@ -20,3 +20,18 @@ console.log(nomeCompleto, rede);
 let somar = (x, y) => x + y;
 
 console.log(somar(10, 20));
+
+
+//Operador Spread 
+
+function novaInfo(inf){
+    let nova = {
+        ...inf,
+        status: 0,
+        id: 10, 
+        token: 'L'
+    }
+    return nova;
+}
+
+console.log(novaInfo({nome:'Rafae', sobrenome:'Pereira'}));
