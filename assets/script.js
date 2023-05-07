@@ -60,3 +60,9 @@ console.log('x'.repeat(2));
 
 //Objeto: Key, Values e Entries
 console.log(Object.entries(outros));
+
+
+//String, padStart, padEnd
+let tel = '23';
+
+console.log(tel.padEnd(9, '*'));
